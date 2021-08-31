@@ -11,7 +11,7 @@
     />
     <meta name="author" content="Gyuri"
     />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <!-- <link rel="shortcut icon" type="image/png" href="img/favicon.png"/> -->
     <script
       src="https://kit.fontawesome.com/9eb162ac0d.js"
       crossorigin="anonymous"
@@ -40,24 +40,24 @@
     </nav>
     
     <!-- Home -->
-    <section id="home">
-        <p>안녕하세요.<br/>웹 개발자 이규리입니다.</p>
+    <section id="home" class="section">
+        <span>안녕하세요.<br/>웹 개발자 이규리입니다.</span>
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section section__container">
         <h1>About</h1>
         <p>
             안녕하세요. 프론트엔드 개발자 이규리입니다.<br/>
-            5개월간 전문교육기관에서 웹퍼블리셔 과정을 배우면서 웹 개발 역량을 쌓았습니다.
-        <br/> CSS와 JavaScript를 활용하여 동적 웹페이지를 만드는 것을 좋아합니다.
-        <br/> 프론트엔드 뿐 만 아니라 벡엔드에도 관심이 많아 풀스텍 개발자가 되는 것이 저의 꿈입니다.
-        <br/> 배움의 즐거움을 통해 깊게 성장해가겠습니다. 감사합니다.
+        <br/>5개월간 전문교육기관에서 웹퍼블리셔 과정을 배우며 HTML, CSS, JavaScript 역량을 쌓고 다양한 프로젝트를 경험하였습니다.
+        <br/>탄탄한 코드 위에 CSS와 JavaScript를 활용하여 동적인 웹페이지를 만드는 것을 좋아합니다.
+        <br/><br/>프론트엔드 뿐 만 아니라 벡엔드도 관심이 많아 풀스텍 개발자가 되는 것이 저의 꿈입니다.
+        <br/>배움의 즐거움을 통해 깊게 성장해가겠습니다. 감사합니다.
         </p>
     </section>
 
     <!-- Skills -->
-    <section id="Skills">
+    <section id="Skills" class="section section__container">
         <h1>Skills</h1>
         <div class="skills__type">
             <div class="skills">
@@ -79,46 +79,46 @@
         <div class="skillset__type">
             <div class="skillset__type__front-end">
                 <div class="skillset">
-                    <img src="img/html.png" alt="html">
+                    <img src="img/skills/html.png" alt="html">
                     <span class="skill__name">HTML</span>
                     <div class="skill__bar">
-                        <div class="skill__value" style=""></div>
+                        <div class="skill__value" style="width: 95%;"></div>
                     </div>
                 </div>
                 <div class="skillset">
-                    <img src="img/css.png" alt="css">
+                    <img src="img/skills/css.png" alt="css">
                     <span class="skill__name">CSS</span>
                     <div class="skill__bar">
-                        <div class="skill__value" style=""></div>
+                        <div class="skill__value" style="width: 92%;"></div>
                     </div>
                 </div>
                 <div class="skillset">
-                    <img src="img/java script.png" alt="java script">
+                    <img src="img/skills/java script.png" alt="java script">
                     <span class="skill__name">Java Script</span>
                     <div class="skill__bar">
-                        <div class="skill__value" style=""></div>
+                        <div class="skill__value" style="width: 80%;"></div>
                     </div>
                 </div>
                 <div class="skillset">
-                    <img src="img/jquery.png" alt="jquery">
+                    <img src="img/skills/jquery.png" alt="jquery">
                     <span class="skill__name">jQuery</span>
                     <div class="skill__bar">
-                        <div class="skill__value" style=""></div>
+                        <div class="skill__value" style="width: 85%;"></div>
                     </div>
                 </div>
             </div>
 
             <div class="skillset__type__etc">
                 <div class="skillset">
-                    <img src="img/github.png" alt="github">
+                    <img src="img/skills/github.png" alt="github">
                     <span class="skill__name">GitHub</span>
                 </div>
                 <div class="skillset">
-                    <img src="img/vscode.png" alt="github">
+                    <img src="img/skills/vscode.png" alt="github">
                     <span class="skill__name">Visual Code</span>
                 </div>
                 <div class="skillset">
-                    <img src="img/figma.png" alt="github">
+                    <img src="img/skills/figma.png" alt="github">
                     <span class="skill__name">Figma</span>
                 </div>
             </div>
@@ -126,7 +126,7 @@
     </section>
 
     <!-- Works -->
-    <section id="works">
+    <section id="works" class="section section__container">
          <h1>Works</h1>
          <div class="works__categories">
              <button class="categories__btn">
@@ -140,49 +140,57 @@
              </button>
          </div>
          <div class="works__projects">
-             <a href="#" class="works__projects" alt="project01">
-                 <div class="projects__description">
+             <a href="#" class="works__project" alt="project01">
+                <img src="img/projects/project1.png" alt="project1">
+                <div class="projects__description">
                      <h3>project01</h3>
                      <p>with HTML, CSS, JavaScript</p>
                  </div>
              </a>
-             <a href="#" class="works__projects" alt="project02">
+             <a href="#" class="works__project" alt="project02">
+                <img src="img/projects/project2.png" alt="project2">
                 <div class="projects__description">
                     <h3>project02</h3>
                     <p>with HTML, CSS, JavaScript</p>
                 </div>
             </a>
-            <a href="#" class="works__projects" alt="project03">
+            <a href="#" class="works__project" alt="project03">
+                <img src="img/projects/project3.png" alt="project3">
                 <div class="projects__description">
                     <h3>project03</h3>
                     <p>with HTML, CSS, JavaScript</p>
                 </div>
             </a>
-            <a href="#" class="works__projects" alt="project04">
+            <a href="#" class="works__project" alt="project04">
+                <img src="img/projects/project4.png" alt="project4">
                 <div class="projects__description">
                     <h3>project04</h3>
                     <p>with HTML, CSS, JavaScript</p>
                 </div>
             </a>
-            <a href="#" class="works__projects" alt="project05">
+            <a href="#" class="works__project" alt="project05">
+                <img src="img/projects/project5.png" alt="project5">
                 <div class="projects__description">
                     <h3>project05</h3>
                     <p>with HTML, CSS, JavaScript</p>
                 </div>
             </a>
-            <a href="#" class="works__projects" alt="project06">
+            <a href="#" class="works__project" alt="project06">
+                <img src="img/projects/project6.png" alt="project6">
                 <div class="projects__description">
                     <h3>project06</h3>
                     <p>with HTML, CSS, JavaScript</p>
                 </div>
             </a>
-            <a href="#" class="works__projects" alt="project07">
+            <a href="#" class="works__project" alt="project07">
+                <img src="img/projects/project7.png" alt="project7">
                 <div class="projects__description">
                     <h3>project07</h3>
                     <p>with HTML, CSS, JavaScript</p>
                 </div>
             </a>
-            <a href="#" class="works__projects" alt="project08">
+            <a href="#" class="works__project" alt="project08">
+                <img src="img/projects/project8.png" alt="project8">
                 <div class="projects__description">
                     <h3>project08</h3>
                     <p>with HTML, CSS, JavaScript</p>
@@ -193,14 +201,15 @@
 
     <!-- contact -->
     <section id="contact">
+        <h1>Contact</h1>
         <img src="img/profile.jpg" alt="gyuri"/>
-        <p>저의 연락처입니다.</p>
+        <h2>gyurilee14@naver.com</h2>
+        <h2>010-7220-7369</h2>
     </section>
 
     <!-- footer -->
-    <footer>
-        <span>ⓒ 2021 Portfolio</span>
-        <span>Made by Gyuri</span>
+    <footer id="footer">
+        <span>ⓒ 2021 Portfolio made by Gyuri</span>
     </footer>
 </body>
 </html>
